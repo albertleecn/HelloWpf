@@ -23,5 +23,10 @@ namespace HelloWpf
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            textBoxHello.Text = "hello " + textBoxHello.Text;
+        }
     }
 }
